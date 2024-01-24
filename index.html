@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+   <!--  home section design -->
+   <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Jean Rocha</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I hope you enjoy getting to know me and it will be a pleasure to introduce myself. Welcome to my portfolio.</p>
+            <div class="social-media">
+                <a href="https://twitter.com/jjeancarllo_jc"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/jjeanrocha_/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/jean-rocha-30b33421b/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/jjeancarllo"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn" onclick="downloadCV()">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/svg/profile_photo.svg" alt="">
+        </div>
+   </section>
+
+   <!-- about section design -->
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="/svg/profile_photo.svg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Front-End Developer</h3>
+            <p>I'm a passionate front-end developer who loves studying and learning about programming. I strive to turn creative concepts into engaging user experiences. I always enjoy staying updated with the latest trends and technologies in the industry to provide innovative solutions. Communicative and collaborative, I am always ready to tackle new challenges and contribute to dynamic development teams.</p>
+        </div>
+   </section>
+
+  <!--  Portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="/images/portfolio_project.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web & Mobile Design</h4>
+                <p>Access my NLW project by clicking here.</p>
+                <a href="https://jjeancarllo.github.io/Virtual-ID-nlw/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact me design-->
+  <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <div class="email-phone-container">
+            <div class="phone-email">
+                <i class='bx bxs-envelope'></i><span>jeanrocha-carlo@hotmail.com</span></a>
+            </div>
+
+            <div class="phone-email">
+                <i class='bx bxs-phone' ></i><span>+55(11)99245-2173</span></a>
+            </div>
+        </div>
+        </div>
+  </section>
+  
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!--  typed js -->
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
