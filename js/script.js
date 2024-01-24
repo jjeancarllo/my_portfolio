@@ -68,8 +68,8 @@ const typed = new Typed(".multiple-text", {
 /* Donwload CV button*/
 
 function downloadCV() {
-  // You can replace '/cv/Jean.R.Curriculum.pdf' with the actual path of your PDF file
-  var filePath = "/cv/Jean.R.Curriculum.pdf";
+  // You can replace 'cv/Jean.R.Curriculum.pdf' with the actual path of your PDF file
+  var filePath = "cv/Jean.R.Curriculum.pdf";
 
   // Create an invisible <a> (link) element
   var link = document.createElement("a");
