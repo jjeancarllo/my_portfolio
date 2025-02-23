@@ -69,14 +69,14 @@ const typed = new Typed(".multiple-text", {
 
 function downloadCV() {
   // You can replace '/cv/Jean.R.Curriculum.pdf' with the actual path of your PDF file
-  var filePath = "cv\Jean.Rocha_Resume2025.pdf";
+  var filePath = "cv/Jean.Rocha_Resume2025.pdf";
 
   // Create an invisible <a> (link) element
   var link = document.createElement("a");
   link.href = filePath;
 
   // Set the download attribute to specify the name of the file to be downloaded
-  link.download = "Jean.Rocha_Resume2025.pdf";
+  link.download = "cv/Jean.Rocha_Resume2025.pdf";
 
   // Add the link to the document body
   document.body.appendChild(link);
