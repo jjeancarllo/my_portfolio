@@ -76,7 +76,7 @@ function downloadCV() {
   link.href = filePath;
 
   // Set the download attribute to specify the name of the file to be downloaded
-  link.download = "cv/Jean.Rocha_Resume.pdf";
+  link.download = "cv/Jean.Rocha_Resume2025.pdf";
 
   // Add the link to the document body
   document.body.appendChild(link);
